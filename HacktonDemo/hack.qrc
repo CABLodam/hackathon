@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>home-view.png</file>
+        <file>calendar-icon.png</file>
+    </qresource>
+</RCC>

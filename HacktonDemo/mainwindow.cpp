@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent) :
     Q_ASSERT(Pages::Overview == 1);
     _ui->contentHolder->addWidget(_overview);
 
-    _ui->contentHolder->setCurrentIndex(Pages::Settings);
+    _ui->contentHolder->setCurrentIndex(Pages::Overview);
 }
 
 MainWindow::~MainWindow()

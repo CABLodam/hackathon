@@ -6,7 +6,6 @@ Overview::Overview(QWidget *parent) :
     ui(new Ui::Overview)
 {
     ui->setupUi(this);
-
 }
 
 Overview::~Overview()

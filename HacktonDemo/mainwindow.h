@@ -4,6 +4,9 @@
 #include <QMainWindow>
 #include <vector>
 
+#include "settings.h"
+#include "overview.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -14,17 +17,13 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
-
-    QPixmap& GetNextView();
-    QPixmap& GetPrevView();
-
-
+    ~MainWindow();    
 
 private slots:    
 
 private:
-    Ui::MainWindow *ui;
-    std::vector<QPixmap> _views;
+    Ui::MainWindow* _ui;
+    Settings* _settings;
+    Overview* _overview;
 };
 #endif // MAINWINDOW_H

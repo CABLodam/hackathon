@@ -4,14 +4,22 @@
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    _ui(new Ui::MainWindow),
+    _settings(new Settings),
+    _overview(new Overview)
 {
-    ui->setupUi(this);
+    _ui->setupUi(this);
 
-    //ui->content->setCurrentIndex(Pages::Overview);
+    Q_ASSERT(Pages::Settings == 0);
+    _ui->contentHolder->addWidget(_settings);
+
+    Q_ASSERT(Pages::Overview == 1);
+    _ui->contentHolder->addWidget(_overview);
+
+    _ui->contentHolder->setCurrentIndex(Pages::Settings);
 }
 
 MainWindow::~MainWindow()
-{
-    delete ui;
+{    
+    delete _ui;
 }

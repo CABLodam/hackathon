@@ -14,12 +14,17 @@ target.path = /opt/app/
 INSTALLS += target
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    overview.cpp \
+    settings.cpp
 
 HEADERS  += mainwindow.h \
-    types.h
+    types.h \
+    overview.h \
+    settings.h
 
 FORMS    += mainwindow.ui \
+    overview.ui \
     settings.ui
 
 RESOURCES += \

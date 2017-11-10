@@ -1,8 +1,11 @@
 <RCC>
     <qresource prefix="/images">
         <file>images/calendar-icon.png</file>
-	<file>images/fan-icon.png</file>	
-	<file>images/house-icon.png</file>
-	<file>images/waterdrops-icon.png</file>
+        <file>images/fan-icon.png</file>
+        <file>images/house-icon.png</file>
+        <file>images/waterdrops-icon.png</file>
+        <file>images/arrow-down.png</file>
+        <file>images/arrow-up.png</file>
+        <file>images/overview_house.png</file>
     </qresource>
 </RCC>

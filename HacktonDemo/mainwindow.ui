@@ -97,7 +97,7 @@
            <number>0</number>
           </property>
           <property name="leftMargin">
-           <number>20</number>
+           <number>0</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -111,7 +111,7 @@
           <item>
            <widget class="QPushButton" name="pushButton">
             <property name="styleSheet">
-             <string notr="true">border:none;font-size:24pt;color:#FFF;</string>
+             <string notr="true">border:none;font-size:24pt;color:#FFF;padding:20px;</string>
             </property>
             <property name="text">
              <string>Menu</string>
@@ -149,7 +149,7 @@
              <number>1</number>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/images/images/calendar-icon.png) 0 0 0 0 stretch stretch;</string>
+             <string notr="true">border-image: url(:/images/images/calendar-icon.png) 0 0 0 0 stretch stretch;;</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>

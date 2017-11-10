@@ -45,7 +45,8 @@
       <item>
        <widget class="QPushButton" name="settingsLink">
         <property name="styleSheet">
-         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;</string>
+         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;
+padding:20px;</string>
         </property>
         <property name="text">
          <string>Settings</string>
@@ -55,7 +56,8 @@
       <item>
        <widget class="QPushButton" name="settingsEditLink">
         <property name="styleSheet">
-         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;</string>
+         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;
+padding:20px;</string>
         </property>
         <property name="text">
          <string>Settings Edit</string>
@@ -65,7 +67,8 @@
       <item>
        <widget class="QPushButton" name="overviewLink">
         <property name="styleSheet">
-         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;</string>
+         <string notr="true">border:none;background-color:#3EAB36;color:#fff;font-size:16pt;
+padding:20px;</string>
         </property>
         <property name="text">
          <string>Overview</string>

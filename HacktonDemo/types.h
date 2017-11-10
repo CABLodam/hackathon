@@ -30,9 +30,9 @@ public:
     inline void AddSetCheckpoint(ISetCheckpoint* s) { _setcp.push_back(s); }
     inline void DoSetcheckpoint()
     {
-        for (ISetCheckpoint* s : _setcp)
+        for (int n = 0; n < _setcp.size(); n++)
         {
-            s->SetCheckpoint();
+            _setcp.at(n)->SetCheckpoint();
         }
     }
 
@@ -44,8 +44,8 @@ public:
     inline void SetContentHolder(QStackedWidget* f) { _contentHolder = f; }
 
 private:
-    Hacks() {}
-    int _setPoint = 25;
+    Hacks() { _setPoint = 21; }
+    int _setPoint;
     QStackedWidget* _contentHolder;
     std::vector<ISetCheckpoint*> _setcp;
 };

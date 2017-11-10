@@ -11,7 +11,7 @@ Settings_Edit::Settings_Edit(QWidget *parent) :
 
 void Settings_Edit::SetCheckpoint()
 {
-    ui->temp->setText(QString::number(Hacks::Get().GetSetPoint()) + ".0° C");
+    ui->temp->setText(QString::number(Hacks::Get().GetSetPoint()) + ".0* C");
 }
 
 Settings_Edit::~Settings_Edit()

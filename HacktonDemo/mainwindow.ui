@@ -35,7 +35,7 @@
    <property name="styleSheet">
     <string notr="true">background-color:#FFF</string>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
     <property name="spacing">
      <number>0</number>
     </property>
@@ -52,219 +52,116 @@
      <number>0</number>
     </property>
     <item>
-     <widget class="QWidget" name="header" native="true">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
+     <widget class="QWidget" name="wrapper" native="true">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>1</verstretch>
+        <horstretch>5</horstretch>
+        <verstretch>0</verstretch>
        </sizepolicy>
       </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:#3EAB36;</string>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
        <property name="spacing">
         <number>0</number>
        </property>
        <property name="leftMargin">
-        <number>20</number>
+        <number>0</number>
        </property>
        <property name="topMargin">
         <number>0</number>
        </property>
        <property name="rightMargin">
-        <number>20</number>
+        <number>0</number>
        </property>
        <property name="bottomMargin">
         <number>0</number>
        </property>
        <item>
-        <widget class="QLabel" name="menuLabel">
-         <property name="styleSheet">
-          <string notr="true">font-size:24pt;color:#FFF;</string>
-         </property>
-         <property name="text">
-          <string>Menu</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QLabel" name="calendarIcon">
-         <property name="minimumSize">
-          <size>
-           <width>56</width>
-           <height>56</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>56</width>
-           <height>56</height>
-          </size>
-         </property>
-         <property name="toolTipDuration">
-          <number>1</number>
-         </property>
-         <property name="styleSheet">
-          <string notr="true"/>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap resource="hack.qrc">:/images/images/calendar-icon.png</pixmap>
-         </property>
-         <property name="scaledContents">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item>
-     <widget class="QWidget" name="content" native="true">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>3</verstretch>
-       </sizepolicy>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <property name="spacing">
-        <number>0</number>
-       </property>
-       <property name="leftMargin">
-        <number>20</number>
-       </property>
-       <property name="topMargin">
-        <number>20</number>
-       </property>
-       <property name="rightMargin">
-        <number>20</number>
-       </property>
-       <property name="bottomMargin">
-        <number>20</number>
-       </property>
-       <item>
-        <widget class="QWidget" name="setpoint" native="true">
+        <widget class="QWidget" name="header" native="true">
          <property name="enabled">
           <bool>true</bool>
          </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>1</horstretch>
-           <verstretch>0</verstretch>
+           <horstretch>0</horstretch>
+           <verstretch>1</verstretch>
           </sizepolicy>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:#3EAB36;</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
           <property name="spacing">
            <number>0</number>
           </property>
           <property name="leftMargin">
-           <number>50</number>
-          </property>
-          <property name="topMargin">
            <number>20</number>
           </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
           <property name="rightMargin">
-           <number>50</number>
+           <number>20</number>
           </property>
           <property name="bottomMargin">
-           <number>50</number>
+           <number>0</number>
           </property>
           <item>
-           <widget class="QLabel" name="setpointImage">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>10</verstretch>
-             </sizepolicy>
+           <widget class="QLabel" name="menuLabel">
+            <property name="styleSheet">
+             <string notr="true">font-size:24pt;color:#FFF;</string>
             </property>
-            <property name="autoFillBackground">
-             <bool>false</bool>
+            <property name="text">
+             <string>Menu</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="calendarIcon">
+            <property name="minimumSize">
+             <size>
+              <width>56</width>
+              <height>56</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>56</width>
+              <height>56</height>
+             </size>
+            </property>
+            <property name="toolTipDuration">
+             <number>1</number>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/images/images/house-icon.png) 0 0 0 0 stretch stretch;</string>
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="text">
              <string/>
             </property>
+            <property name="pixmap">
+             <pixmap resource="hack.qrc">:/images/images/calendar-icon.png</pixmap>
+            </property>
             <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="wordWrap">
-             <bool>false</bool>
-            </property>
-            <property name="margin">
-             <number>0</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="setpointLabel">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>2</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:12pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>Room temp.setpoint</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="setpointValue">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>1</horstretch>
-              <verstretch>1</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:18pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>21.0° C</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -272,216 +169,72 @@ text-align:center;</string>
         </widget>
        </item>
        <item>
-        <widget class="QWidget" name="relhum" native="true">
+        <widget class="QWidget" name="content" native="true">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>1</horstretch>
-           <verstretch>0</verstretch>
+           <horstretch>0</horstretch>
+           <verstretch>3</verstretch>
           </sizepolicy>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_3">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <property name="leftMargin">
-           <number>50</number>
-          </property>
-          <property name="topMargin">
-           <number>20</number>
-          </property>
-          <property name="rightMargin">
-           <number>50</number>
-          </property>
-          <property name="bottomMargin">
-           <number>50</number>
-          </property>
-          <item>
-           <widget class="QLabel" name="relhumImage">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>10</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="autoFillBackground">
-             <bool>false</bool>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-image: url(:/images/images/waterdrops-icon.png) 0 0 0 0 stretch stretch;</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="wordWrap">
-             <bool>false</bool>
-            </property>
-            <property name="margin">
-             <number>0</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="relhumLabel">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>2</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:12pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>Relative humidity</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="relhumvalue">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>1</horstretch>
-              <verstretch>1</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:18pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>53%</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QWidget" name="ventStep" native="true">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>1</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
+         <property name="minimumSize">
           <size>
-           <width>16777215</width>
-           <height>16777215</height>
+           <width>0</width>
+           <height>100</height>
           </size>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_4">
+         <layout class="QHBoxLayout" name="horizontalLayout">
           <property name="spacing">
            <number>0</number>
           </property>
           <property name="leftMargin">
-           <number>50</number>
+           <number>20</number>
           </property>
           <property name="topMargin">
            <number>20</number>
           </property>
           <property name="rightMargin">
-           <number>50</number>
+           <number>20</number>
           </property>
           <property name="bottomMargin">
-           <number>50</number>
+           <number>20</number>
           </property>
           <item>
-           <widget class="QLabel" name="ventStepImage">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>10</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="autoFillBackground">
-             <bool>false</bool>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-image: url(:/images/images/fan-icon.png) 0 0 0 0 stretch stretch;</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="wordWrap">
-             <bool>false</bool>
-            </property>
-            <property name="margin">
-             <number>0</number>
-            </property>
+           <widget class="QStackedWidget" name="contentHolder">
+            <widget class="QWidget" name="page_3"/>
+            <widget class="QWidget" name="page_4"/>
            </widget>
           </item>
-          <item>
-           <widget class="QLabel" name="ventStepLabel">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>2</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:12pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>Ventilation step</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="ventStepValue">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>1</horstretch>
-              <verstretch>1</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:green;
-font-size:18pt;
-text-align:center;</string>
-            </property>
-            <property name="text">
-             <string>2</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="footer" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>1</verstretch>
+          </sizepolicy>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="spacing">
+           <number>1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
          </layout>
         </widget>
        </item>
       </layout>
-     </widget>
-    </item>
-    <item>
-     <widget class="QWidget" name="footer" native="true">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>1</verstretch>
-       </sizepolicy>
-      </property>
      </widget>
     </item>
    </layout>

@@ -16,9 +16,11 @@ INSTALLS += target
 SOURCES += main.cpp\
         mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    types.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    settings.ui
 
 RESOURCES += \
     hack.qrc

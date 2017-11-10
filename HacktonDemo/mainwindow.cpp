@@ -30,7 +30,7 @@ MainWindow::MainWindow(QWidget *parent) :
     Q_ASSERT(Pages::Menu == 3);
     _ui->contentHolder->addWidget(_menu);
 
-    _ui->contentHolder->setCurrentIndex(Pages::Menu);
+    _ui->contentHolder->setCurrentIndex(Pages::Settings);
 }
 
 MainWindow::~MainWindow()

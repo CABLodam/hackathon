@@ -1,2 +1,7 @@
-*-build
-*.user
+build-*
+*.user*
+*.autosave*
+*.bak
+*.jpg
+*.png
+*.txt

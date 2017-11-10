@@ -4,19 +4,34 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT += core gui
+QT += widgets
 
 TARGET = HacktonDemo
 TEMPLATE = app
 
+target.path = /opt/app/
+INSTALLS += target
+
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    overview.cpp \
+    settings.cpp \
+    settings_edit.cpp \
+    menu.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    types.h \
+    overview.h \
+    settings.h \
+    settings_edit.h \
+    menu.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    overview.ui \
+    settings.ui \
+    settings_edit.ui \
+    menu.ui
 
 RESOURCES += \
     hack.qrc

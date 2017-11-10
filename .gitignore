@@ -2,5 +2,3 @@ build-*
 *.user*
 *.autosave*
 *.bak
-*.jpg
-*.txt
